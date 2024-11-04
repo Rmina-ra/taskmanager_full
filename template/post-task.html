@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post-task</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container is-header">
+            <button class="menu-btn" onclick="menulistAction()">
+                <img src="./images/three-dots.svg" alt="menu">
+            </button>            
+        </div>
+    </header>
+    <main>
+        <div id="menu-list" style="display: none">
+            <div class="container is-list">
+                <ul class="menu-list">
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">
+                            <img src="./images/home.svg" alt="Home">
+                            <span>Главная</span>
+                        </a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">
+                            <img src="./images/task.svg" alt="Task">
+                            <span>Задачи</span>
+                        </a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">
+                            <img src="./images/employees.svg" alt="Employees">
+                            <span>Сотрудники</span>
+                        </a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">
+                            <img src="./images/kodecs.svg" alt="Kodecs">
+                            <span>Правила</span>
+                        </a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">
+                            <img src="./images/signup.svg" alt="Signup">
+                            <span>Регистрация</span>
+                        </a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">
+                            <img src="./images/login.svg" alt="Login">
+                            <span>Вход</span>
+                        </a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">
+                            <img src="./images/logout.svg" alt="Logout">
+                            <span>Выход</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <section class="post-task">
+            <div class="container">
+                <h1 class="title">Сдизайнить проект чтобы всем было хорошо</h1>
+                <h3 class="post-task__about">Заказчик: <span>отдел продаж</span></h3>
+                <h3 class="post-task__about">Дедлайн: <span>до конца недели</span></h3>
+                <h3 class="post-task__about">Сложность: <span>medium</span></h3>
+                <p class="post-task__content"><strong>Описание: </strong>Нарисуйте или распечатайте планировку нового кабинета в офисе и укажите на ней все реальные размеры. Помечайте на плане коммуникации, проемы, высоты. Используя компас, укажите стороны света. In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.</p>
+                <p class="post-task__content"><strong>Условия: </strong>Сделать как можно красивее. Использовать бессмысленный текст-заполнитель, который вставляется в макет страницы при тестировании или для того, чтобы показать заказчику как будут смотреться блоки с текстом.</p>
+                <div class="post-task__contacts">
+                    <h3 class="post-task__about">Контакты:</h3>
+                    <ul class="post-task__address">
+                        <li>Отдел продаж, ТОО "продажники"</li>
+                        <li>Телефон: +1 111 111 11 11</li>
+                        <li>Email: dnwahbd@gmail.com</li>
+                    </ul>
+                </div>
+                <p class="post-task__content"><strong>Дата публикации: </strong>01.01.25</p>
+                <button class="btn-success is-allwidth">Отметить как выполнено</button>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

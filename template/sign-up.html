@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container is-header">
+            <button class="menu-btn" onclick="menulistAction()">
+                <img src="./images/three-dots.svg" alt="menu">
+            </button>            
+        </div>
+    </header>
+    <main>
+        <div id="menu-list" style="display: none">
+            <div class="container is-list">
+                <ul class="menu-list">
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">
+                            <img src="./images/home.svg" alt="Home">
+                            <span>Главная</span>
+                        </a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">
+                            <img src="./images/task.svg" alt="Task">
+                            <span>Задачи</span>
+                        </a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">
+                            <img src="./images/employees.svg" alt="Employees">
+                            <span>Сотрудники</span>
+                        </a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">
+                            <img src="./images/kodecs.svg" alt="Kodecs">
+                            <span>Правила</span>
+                        </a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">
+                            <img src="./images/signup.svg" alt="Signup">
+                            <span>Регистрация</span>
+                        </a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">
+                            <img src="./images/login.svg" alt="Login">
+                            <span>Вход</span>
+                        </a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">
+                            <img src="./images/logout.svg" alt="Logout">
+                            <span>Выход</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <section class="auth">
+            <div class="container is-registration">
+                <h2 class="title">Регистрация</h2>
+                <form method="post">
+                    <button class="btn-success is-done">Зарегистрироваться</button>
+                </form>
+                <p class="help">Уже есть аккаунт? <a href="#" class="help-link">Войти</a></p>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
